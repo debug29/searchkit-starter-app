@@ -8,7 +8,7 @@ import { SearchkitManager,SearchkitProvider,
 import './index.css'
 import DateRangeFilter from './DateRangeFilter'
 
-export const DATE_FIELD_NAME = 'DateFieldName';
+export const DATE_FIELD_NAME = 'ts_cre';
 
 const host = "http://lgc-sandbox-dev:9200/console"
 const searchkit = new SearchkitManager(host)
@@ -57,6 +57,10 @@ class App extends Component {
                 <ResetFilters/>
               </ActionBarRow>
             </ActionBar>
+             <Hits 
+            mod="sk-hits-list"
+            hitsPerPage={ 25 }
+          />
           </LayoutResults>
 
           </LayoutBody>
