@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { SearchkitManager,SearchkitProvider,
-  SearchBox, 
-  HitsStats,
+  SearchBox, HierarchicalMenuFilter, 
+  HitsStats, SideBar,
   ResetFilters,
   Layout, TopBar, LayoutBody, LayoutResults,
   ActionBar, ActionBarRow, QueryString } from 'searchkit'
