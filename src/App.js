@@ -55,17 +55,6 @@ class App extends Component {
 
           <SideBar>
             <HierarchicalMenuFilter fields={["type"]} title="Categories" id="categories"/>
-            <DynamicRangeFilter field="metaScore" id="metascore" title="Metascore" rangeFormatter={(count)=> count + "*"}/>
-            <RangeFilter min={0} max={10} field="imdbRating" id="imdbRating" title="IMDB Rating" showHistogram={true}/>
-            <RefinementListFilter id="actors" title="Actors" field="actors.raw" size={10}/>
-            <RefinementListFilter id="writersFacets" translations={{"facets.view_more":"View more writers"}} title="Writers" field="writers.raw" operator="OR" size={10}/>
-            <RefinementListFilter id="countries" title="Countries" field="countries.raw" operator="OR" size={10}/>
-            <NumericRefinementListFilter id="runtimeMinutes" title="Length" field="runtimeMinutes" options={[
-              {title:"All"},
-              {title:"up to 20", from:0, to:20},
-              {title:"21 to 60", from:21, to:60},
-              {title:"60 or more", from:61, to:1000}
-            ]}/>
           </SideBar>
           <LayoutResults>
             <ActionBar>
@@ -75,11 +64,6 @@ class App extends Component {
                   "hitstats.results_found":"{hitCount} results found"
                 }}/>
                 <ViewSwitcherToggle/>
-                <SortingSelector options={[
-                  {label:"Relevance", field:"_score", order:"desc"},
-                  {label:"Latest Releases", field:"released", order:"desc"},
-                  {label:"Earliest Releases", field:"released", order:"asc"}
-                ]}/>
               </ActionBarRow>
 
               <ActionBarRow>
@@ -89,15 +73,15 @@ class App extends Component {
 
             </ActionBar>
             <ViewSwitcherHits
-                hitsPerPage={12} highlightFields={["title","plot"]}
-                sourceFilter={[]}
+                hitsPerPage={12}
+                sourceFilter={}
                 hitComponents={[
                   {key:"grid", title:"Grid", itemComponent:MovieHitsGridItem, defaultOption:true},
                   {key:"list", title:"List", itemComponent:MovieHitsListItem}
                 ]}
                 scrollTo="body"
             />
-            <NoHits suggestionsField={"title"}/>
+            <NoHits/>
             <Pagination showNumbers={true}/>
           </LayoutResults>
 
