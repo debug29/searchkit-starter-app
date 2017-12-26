@@ -6,6 +6,9 @@ import { SearchkitManager,SearchkitProvider,
   Layout, TopBar, LayoutBody, LayoutResults,
   ActionBar, ActionBarRow, QueryString } from 'searchkit'
 import './index.css'
+import DateRangeFilter from './DateRangeFilter'
+
+export const DATE_FIELD_NAME = 'DateFieldName';
 
 const host = "http://lgc-sandbox-dev:9200/console"
 const searchkit = new SearchkitManager(host)
@@ -33,6 +36,14 @@ class App extends Component {
         <LayoutBody>
           <SideBar>
             <HierarchicalMenuFilter fields={["typ_flu", "sou_typ_flu"]} title="Categories" id="categories"/>
+            <RangeFilter
+            id='event_date_filter'
+            title='Event Date Filter'
+            field={ DATE_FIELD_NAME }
+            rangeComponent={ DateRangeFilter }
+            min={ 946684800000 }
+            max={ new Date().getTime() }
+          />
           </SideBar>
           <LayoutResults>
             <ActionBar>
