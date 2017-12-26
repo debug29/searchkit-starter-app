@@ -18,9 +18,7 @@ const MovieHitsGridItem = (props)=> {
   const source = extend({}, result._source, result.highlight)
   return (
     <div className={bemBlocks.item().mix(bemBlocks.container("item"))} data-qa="hit">
-      <a href={url} target="_blank">
         <div data-qa="title" className={bemBlocks.item("_id_flu")} dangerouslySetInnerHTML={{__html:source.title}}></div>
-      </a>
     </div>
   )
 }
