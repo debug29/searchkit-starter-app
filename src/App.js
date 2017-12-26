@@ -17,7 +17,7 @@ class App extends Component {
         <Layout>
           <TopBar>
             <div className="my-logo">Console HUB-EDI</div>
-            <SearchBox autofocus={true} searchOnChange={true} queryBuilder={QueryString}/>
+            <SearchBox autofocus={true} searchOnChange={true} queryBuilder={query:string}/>
           </TopBar>
 
         <LayoutBody>
