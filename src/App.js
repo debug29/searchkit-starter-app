@@ -10,7 +10,7 @@ import { SearchkitManager,SearchkitProvider,
   ActionBar, ActionBarRow, SideBar } from 'searchkit'
 import './index.css'
 
-const host = "http://lgc-sandbox-dev:9200/console/"
+const host = "http://lgc-sandbox-dev:9200/"
 const searchkit = new SearchkitManager(host)
 
 const MovieHitsGridItem = (props)=> {
