@@ -32,7 +32,7 @@ class App extends Component {
 
         <LayoutBody>
           <SideBar>
-            <HierarchicalMenuFilter fields={["type"]} title="Categories" id="categories"/>
+            <HierarchicalMenuFilter fields={["typ_flu", "sou_typ_flu"]} title="Categories" id="categories"/>
           </SideBar>
           <LayoutResults>
             <ActionBar>
