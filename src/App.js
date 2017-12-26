@@ -1,13 +1,10 @@
 import React, { Component } from 'react'
-import extend from 'lodash/extend'
 import { SearchkitManager,SearchkitProvider,
-  SearchBox, Pagination,
-  HierarchicalMenuFilter, HitsStats, NoHits,
+  SearchBox, 
+  HitsStats,
   ResetFilters,
-  ViewSwitcherHits, ViewSwitcherToggle,
-  GroupedSelectedFilters,
   Layout, TopBar, LayoutBody, LayoutResults,
-  ActionBar, ActionBarRow, SideBar } from 'searchkit'
+  ActionBar, ActionBarRow } from 'searchkit'
 import './index.css'
 
 const host = "http://lgc-sandbox-dev:9200/console"
