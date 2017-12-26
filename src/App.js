@@ -74,7 +74,6 @@ class App extends Component {
             </ActionBar>
             <ViewSwitcherHits
                 hitsPerPage={12}
-                sourceFilter={}
                 hitComponents={[
                   {key:"grid", title:"Grid", itemComponent:MovieHitsGridItem, defaultOption:true},
                   {key:"list", title:"List", itemComponent:MovieHitsListItem}
