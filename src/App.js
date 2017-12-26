@@ -18,7 +18,7 @@ class App extends Component {
           <TopBar>
             <div className="my-logo">Console HUB-EDI</div>
             <SearchBox autofocus={true} searchOnChange={true} queryBuilder={(query, options)=> {
-               return QueryString(query, options)
+               return QueryString("type:flux AND " + query, options)
             }}/>
           </TopBar>
 
