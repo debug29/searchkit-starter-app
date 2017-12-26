@@ -21,7 +21,7 @@ class App extends Component {
               if(query){
                  return QueryString("type:flux AND " + query, options)
               } else {
-                return TermQuery('type', 'flux')
+                return QueryString("type:flux", options)
               }
             }}/>
           </TopBar>
