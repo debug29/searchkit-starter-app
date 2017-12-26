@@ -23,7 +23,9 @@ class App extends Component {
           </TopBar>
 
         <LayoutBody>
-
+          <SideBar>
+            <HierarchicalMenuFilter fields={["type"]} title="Categories" id="categories"/>
+          </SideBar>
           <LayoutResults>
             <ActionBar>
               <ActionBarRow>
