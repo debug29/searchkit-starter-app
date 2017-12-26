@@ -12,7 +12,7 @@ const searchkit = new SearchkitManager(host)
 
 searchkit.addDefaultQuery(query => {
   return query.addQuery(QueryString("type:flux", null)
-})
+});
 
 class App extends Component {
   render() {
