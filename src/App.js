@@ -4,7 +4,7 @@ import { SearchkitManager,SearchkitProvider,
   HitsStats,
   ResetFilters,
   Layout, TopBar, LayoutBody, LayoutResults,
-  ActionBar, ActionBarRow } from 'searchkit'
+  ActionBar, ActionBarRow, QueryString } from 'searchkit'
 import './index.css'
 
 const host = "http://lgc-sandbox-dev:9200/console"
