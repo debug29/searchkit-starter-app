@@ -10,6 +10,10 @@ import './index.css'
 const host = "http://lgc-sandbox-dev:9200/console"
 const searchkit = new SearchkitManager(host)
 
+searchkit.addDefaultQuery(query => {
+  return query.addQuery(QueryString("type:flux", null);
+});
+
 class App extends Component {
   render() {
     return (
