@@ -10,7 +10,7 @@ import { SearchkitManager,SearchkitProvider,
   ActionBar, ActionBarRow, SideBar } from 'searchkit'
 import './index.css'
 
-const host = "http://lgc-sandbox-dev:9200/"
+const host = "http://lgc-sandbox-dev:9200/console/"
 const searchkit = new SearchkitManager(host)
 
 const MovieHitsGridItem = (props)=> {
@@ -18,7 +18,8 @@ const MovieHitsGridItem = (props)=> {
   const source = extend({}, result._source, result.highlight)
   return (
     <div className={bemBlocks.item().mix(bemBlocks.container("item"))} data-qa="hit">
-        <div data-qa="title" className={bemBlocks.item("_id_flu")} dangerouslySetInnerHTML={{__html:source.title}}></div>
+        <div data-qa="title" className={bemBlocks.item("title")} dangerouslySetInnerHTML={{__html:source.id_flu}}></div>
+      
     </div>
   )
 }
