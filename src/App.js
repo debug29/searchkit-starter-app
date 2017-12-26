@@ -32,9 +32,6 @@ const MovieHitsListItem = (props)=> {
   const source = extend({}, result._source, result.highlight)
   return (
     <div className={bemBlocks.item().mix(bemBlocks.container("item"))} data-qa="hit">
-      <div className={bemBlocks.item("poster")}>
-        <img alt="presentation" data-qa="poster" src={result._source.poster}/>
-      </div>
       <div className={bemBlocks.item("details")}>
         <a href={url} target="_blank"><h2 className={bemBlocks.item("title")} dangerouslySetInnerHTML={{__html:source.title}}></h2></a>
         <h3 className={bemBlocks.item("subtitle")}>Released in {source.year}, rated {source.imdbRating}/10</h3>
