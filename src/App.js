@@ -18,7 +18,11 @@ class App extends Component {
           <TopBar>
             <div className="my-logo">Console HUB-EDI</div>
             <SearchBox autofocus={true} searchOnChange={true} queryBuilder={(query, options)=> {
-               return QueryString("type:flux AND " + query, options)
+              if(query){
+                 return QueryString("type:flux AND " + query, options)
+              } else {
+                return BoolMust(TermQuery('type', 'flux'))
+              }
             }}/>
           </TopBar>
 
