@@ -4,7 +4,8 @@ import { SearchkitManager,SearchkitProvider,
   HitsStats, SideBar,
   ResetFilters,
   Layout, TopBar, LayoutBody, LayoutResults,
-  ActionBar, ActionBarRow, QueryString } from 'searchkit'
+  ActionBar, ActionBarRow, QueryString,
+  RangeFilter, Hits } from 'searchkit'
 import './index.css'
 import DateRangeFilter from './DateRangeFilter'
 
