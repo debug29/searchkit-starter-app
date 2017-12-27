@@ -353,7 +353,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"ALBA \(G.D.\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"ALBA (G.D.)\";"
   },
   "query": {
     "term": {
@@ -562,7 +562,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"ANDREZIEUX DISTRIBUTION\(DRIVE\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"ANDREZIEUX DISTRIBUTION(DRIVE)\";"
   },
   "query": {
     "term": {
@@ -694,7 +694,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"AQUILA \(SOGIPER\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"AQUILA (SOGIPER)\";"
   },
   "query": {
     "term": {
@@ -815,7 +815,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"ARMA DI TAGGIA \(G.D.SRL\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"ARMA DI TAGGIA (G.D.SRL)\";"
   },
   "query": {
     "term": {
@@ -1365,7 +1365,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"BENEVENTO \(PIANETA COSPEA\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"BENEVENTO (PIANETA COSPEA)\";"
   },
   "query": {
     "term": {
@@ -1497,7 +1497,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"BOLOGNA \(G.D. SLR\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"BOLOGNA (G.D. SLR)\";"
   },
   "query": {
     "term": {
@@ -1926,7 +1926,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"CAMPOBASSO \(SOGIPER\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"CAMPOBASSO (SOGIPER)\";"
   },
   "query": {
     "term": {
@@ -1948,7 +1948,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"CARBONIA \(EURALCOOP\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"CARBONIA (EURALCOOP)\";"
   },
   "query": {
     "term": {
@@ -1992,7 +1992,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"CASAPULLA \(PIANETA COSPEA\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"CASAPULLA (PIANETA COSPEA)\";"
   },
   "query": {
     "term": {
@@ -2047,7 +2047,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"CAVALLINO LECCE \(SOGIPER\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"CAVALLINO LECCE (SOGIPER)\";"
   },
   "query": {
     "term": {
@@ -2058,7 +2058,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"CC DES JARDINS \(BRIODIS\)-SUPER\";"
+    "inline" : "ctx._source.rai_soc_des = \"CC DES JARDINS (BRIODIS)-SUPER\";"
   },
   "query": {
     "term": {
@@ -2663,7 +2663,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"CIVITAVECCHIA \(DISCO SRL\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"CIVITAVECCHIA (DISCO SRL)\";"
   },
   "query": {
     "term": {
@@ -2894,7 +2894,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"CONAD TEXTILE \(CEVA\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"CONAD TEXTILE (CEVA)\";"
   },
   "query": {
     "term": {
@@ -3598,7 +3598,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"DRIVE AUDINCOURT \(HEXAGODIS\)-E\";"
+    "inline" : "ctx._source.rai_soc_des = \"DRIVE AUDINCOURT (HEXAGODIS)-E\";"
   },
   "query": {
     "term": {
@@ -3818,7 +3818,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"DRIVE ST THONAN \(SODILECK\)-ESP\";"
+    "inline" : "ctx._source.rai_soc_des = \"DRIVE ST THONAN (SODILECK)-ESP\";"
   },
   "query": {
     "term": {
@@ -4522,7 +4522,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"FIRMINY DISTRIBUTION \(DRIVE\)-E\";"
+    "inline" : "ctx._source.rai_soc_des = \"FIRMINY DISTRIBUTION (DRIVE)-E\";"
   },
   "query": {
     "term": {
@@ -4709,7 +4709,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"GALLICANO \(CIVITAS SRL\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"GALLICANO (CIVITAS SRL)\";"
   },
   "query": {
     "term": {
@@ -5160,7 +5160,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"HONFLEUR DIST. \(DEPT BBJ \)\";"
+    "inline" : "ctx._source.rai_soc_des = \"HONFLEUR DIST. (DEPT BBJ )\";"
   },
   "query": {
     "term": {
@@ -6898,7 +6898,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"LADISPOLI  \(CARINA SRL\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"LADISPOLI  (CARINA SRL)\";"
   },
   "query": {
     "term": {
@@ -6953,7 +6953,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"LANCIANO \(SOGIPER\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"LANCIANO (SOGIPER)\";"
   },
   "query": {
     "term": {
@@ -7393,7 +7393,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"LOGILEC \(RACHAT DE PORT\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"LOGILEC (RACHAT DE PORT)\";"
   },
   "query": {
     "term": {
@@ -7734,7 +7734,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"MANFREDONNIA MONTES.AN\(SOGIPER\";"
+    "inline" : "ctx._source.rai_soc_des = \"MANFREDONNIA MONTES.AN(SOGIPER\";"
   },
   "query": {
     "term": {
@@ -7954,7 +7954,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"MODENA \(G.D. SRL\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"MODENA (G.D. SRL)\";"
   },
   "query": {
     "term": {
@@ -8020,7 +8020,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"MONTEROTONDO \(CBF SRL\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"MONTEROTONDO (CBF SRL)\";"
   },
   "query": {
     "term": {
@@ -8559,7 +8559,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"PERLANDIS \(EX-COLANDIS\)-SUPER\";"
+    "inline" : "ctx._source.rai_soc_des = \"PERLANDIS (EX-COLANDIS)-SUPER\";"
   },
   "query": {
     "term": {
@@ -8647,7 +8647,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"PISA \(IPER PISA SRL\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"PISA (IPER PISA SRL)\";"
   },
   "query": {
     "term": {
@@ -8680,7 +8680,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"PLAGECO\(SAISONNIER\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"PLAGECO(SAISONNIER)\";"
   },
   "query": {
     "term": {
@@ -8922,7 +8922,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"QUARTU SANT ELENA\(LAMPO 3\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"QUARTU SANT ELENA(LAMPO 3)\";"
   },
   "query": {
     "term": {
@@ -9065,7 +9065,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"RIMINI \(S.G.I. SRL\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"RIMINI (S.G.I. SRL)\";"
   },
   "query": {
     "term": {
@@ -9780,7 +9780,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"SAINT-LOUIS\(ALCOBA\)-HYPER\";"
+    "inline" : "ctx._source.rai_soc_des = \"SAINT-LOUIS(ALCOBA)-HYPER\";"
   },
   "query": {
     "term": {
@@ -9802,7 +9802,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"SAN SEVERO \(SOGIPER\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"SAN SEVERO (SOGIPER)\";"
   },
   "query": {
     "term": {
@@ -10066,7 +10066,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"SAVIGLIANO \(SAVIDIS\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"SAVIGLIANO (SAVIDIS)\";"
   },
   "query": {
     "term": {
@@ -12563,7 +12563,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"STANG VIHAN \(KERVILLY\)-L_EXPRE\";"
+    "inline" : "ctx._source.rai_soc_des = \"STANG VIHAN (KERVILLY)-L_EXPRE\";"
   },
   "query": {
     "term": {
@@ -12816,7 +12816,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"TERAMO \(SOGIPER\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"TERAMO (SOGIPER)\";"
   },
   "query": {
     "term": {
@@ -12827,7 +12827,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"TERNI \(PIANETA COSPEA\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"TERNI (PIANETA COSPEA)\";"
   },
   "query": {
     "term": {
@@ -13124,7 +13124,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"TRENTOLA \(PIANETA COSPEA\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"TRENTOLA (PIANETA COSPEA)\";"
   },
   "query": {
     "term": {
@@ -13377,7 +13377,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"VASTO \(SOGIPER\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"VASTO (SOGIPER)\";"
   },
   "query": {
     "term": {
@@ -13630,7 +13630,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"VITERBO \(PIANETA COSPEA\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"VITERBO (PIANETA COSPEA)\";"
   },
   "query": {
     "term": {
@@ -14961,7 +14961,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"ANDROS \(FRUIVAL SA\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"ANDROS (FRUIVAL SA)\";"
   },
   "query": {
     "term": {
@@ -14972,7 +14972,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"ANDROS \(FRUIVAL SA\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"ANDROS (FRUIVAL SA)\";"
   },
   "query": {
     "term": {
@@ -16006,7 +16006,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"AVASCO FRANCE SA \(EX ADYSCEB\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"AVASCO FRANCE SA (EX ADYSCEB)\";"
   },
   "query": {
     "term": {
@@ -16061,7 +16061,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"AXIANE MEUNERIE \(AMO\) \";"
+    "inline" : "ctx._source.rai_soc_des = \"AXIANE MEUNERIE (AMO) \";"
   },
   "query": {
     "term": {
@@ -16237,7 +16237,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"BAHLSEN ST MICHEL \(RACHAT\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"BAHLSEN ST MICHEL (RACHAT)\";"
   },
   "query": {
     "term": {
@@ -16622,7 +16622,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"BELGIAN ICE CREAM GROUP \(BIG\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"BELGIAN ICE CREAM GROUP (BIG)\";"
   },
   "query": {
     "term": {
@@ -16842,7 +16842,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"BEURALIA \(SODIAAL\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"BEURALIA (SODIAAL)\";"
   },
   "query": {
     "term": {
@@ -16974,7 +16974,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"BINNEY AND SMITH \(EUROPE\)LTD\";"
+    "inline" : "ctx._source.rai_soc_des = \"BINNEY AND SMITH (EUROPE)LTD\";"
   },
   "query": {
     "term": {
@@ -18745,7 +18745,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"CAROFRANCE CERAMIQUE \(CERAM\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"CAROFRANCE CERAMIQUE (CERAM)\";"
   },
   "query": {
     "term": {
@@ -18756,7 +18756,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"CAROFRANCE CERAMIQUE \(PAULHAGU\";"
+    "inline" : "ctx._source.rai_soc_des = \"CAROFRANCE CERAMIQUE (PAULHAGU\";"
   },
   "query": {
     "term": {
@@ -21858,7 +21858,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"CRUSTIMEX \(A SUPPRIMER\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"CRUSTIMEX (A SUPPRIMER)\";"
   },
   "query": {
     "term": {
@@ -23453,7 +23453,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"DUHALLE \(LAFITTE LIEGE SA\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"DUHALLE (LAFITTE LIEGE SA)\";"
   },
   "query": {
     "term": {
@@ -24377,7 +24377,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"ETHIQUABLE \(ÉCHANGE ÉQUITABLE\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"ETHIQUABLE (ÉCHANGE ÉQUITABLE)\";"
   },
   "query": {
     "term": {
@@ -24795,7 +24795,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"EUROTAB OPERATIONS\(LINOSSIER\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"EUROTAB OPERATIONS(LINOSSIER)\";"
   },
   "query": {
     "term": {
@@ -27039,7 +27039,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"GALEDO \(ANCIEN\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"GALEDO (ANCIEN)\";"
   },
   "query": {
     "term": {
@@ -29426,7 +29426,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"IDM \(ELSE MDD\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"IDM (ELSE MDD)\";"
   },
   "query": {
     "term": {
@@ -30317,7 +30317,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"JEYES SRO \(ANCIEN GMBH\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"JEYES SRO (ANCIEN GMBH)\";"
   },
   "query": {
     "term": {
@@ -30548,7 +30548,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"KAMBLY FRANCE \(CANSIMAG\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"KAMBLY FRANCE (CANSIMAG)\";"
   },
   "query": {
     "term": {
@@ -31879,7 +31879,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"LARDY SA \(SMOBY\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"LARDY SA (SMOBY)\";"
   },
   "query": {
     "term": {
@@ -32264,7 +32264,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"LEAF SAS \(LAMY LUTTI\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"LEAF SAS (LAMY LUTTI)\";"
   },
   "query": {
     "term": {
@@ -32605,7 +32605,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"LES COMPTOIRS DU BISCUIT  \(EX \";"
+    "inline" : "ctx._source.rai_soc_des = \"LES COMPTOIRS DU BISCUIT  (EX \";"
   },
   "query": {
     "term": {
@@ -33188,7 +33188,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"LILLE HEALTHCARE\(COVIDIEN\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"LILLE HEALTHCARE(COVIDIEN)\";"
   },
   "query": {
     "term": {
@@ -33265,7 +33265,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"LIXIR \(TRIODIS\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"LIXIR (TRIODIS)\";"
   },
   "query": {
     "term": {
@@ -35234,7 +35234,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"MONNERET \(SMOBY\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"MONNERET (SMOBY)\";"
   },
   "query": {
     "term": {
@@ -36092,7 +36092,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"NUTRIBIO\(COFRANLAIT\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"NUTRIBIO(COFRANLAIT)\";"
   },
   "query": {
     "term": {
@@ -38919,7 +38919,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"RIBEREBRO INTEGRAL \(ANCIEN\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"RIBEREBRO INTEGRAL (ANCIEN)\";"
   },
   "query": {
     "term": {
@@ -39414,7 +39414,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"ROUGER DISTRIBUTION \(BISCUITER\";"
+    "inline" : "ctx._source.rai_soc_des = \"ROUGER DISTRIBUTION (BISCUITER\";"
   },
   "query": {
     "term": {
@@ -40393,7 +40393,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"SAS CHRIST\(GILLET CONTRES\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"SAS CHRIST(GILLET CONTRES)\";"
   },
   "query": {
     "term": {
@@ -41240,7 +41240,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"SEURODIS ANCIEN\(PHOSKITOS\) \";"
+    "inline" : "ctx._source.rai_soc_des = \"SEURODIS ANCIEN(PHOSKITOS) \";"
   },
   "query": {
     "term": {
@@ -41339,7 +41339,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"SIALE \(ARDO\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"SIALE (ARDO)\";"
   },
   "query": {
     "term": {
@@ -41735,7 +41735,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"SKALLI \(LES VINS\) \";"
+    "inline" : "ctx._source.rai_soc_des = \"SKALLI (LES VINS) \";"
   },
   "query": {
     "term": {
@@ -42791,7 +42791,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"ST MICHEL BISCUITS SAS\(MORINA\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"ST MICHEL BISCUITS SAS(MORINA)\";"
   },
   "query": {
     "term": {
@@ -43550,7 +43550,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"TERRE ET DECOR \(DEROMA\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"TERRE ET DECOR (DEROMA)\";"
   },
   "query": {
     "term": {
@@ -43913,7 +43913,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"TIPIAK PANIFICATION\(GESNOIN\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"TIPIAK PANIFICATION(GESNOIN)\";"
   },
   "query": {
     "term": {
@@ -44089,7 +44089,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"TOSHIBA SYSTEMES \(FRANCE\) SAS\";"
+    "inline" : "ctx._source.rai_soc_des = \"TOSHIBA SYSTEMES (FRANCE) SAS\";"
   },
   "query": {
     "term": {
@@ -44991,7 +44991,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"VALEURDIS \(AVIVA\) \";"
+    "inline" : "ctx._source.rai_soc_des = \"VALEURDIS (AVIVA) \";"
   },
   "query": {
     "term": {
@@ -45200,7 +45200,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"VBP DISTRIBUTION \(WAY\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"VBP DISTRIBUTION (WAY)\";"
   },
   "query": {
     "term": {
@@ -45761,7 +45761,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"VINOVALIE \(RABASTENS\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"VINOVALIE (RABASTENS)\";"
   },
   "query": {
     "term": {
@@ -46795,7 +46795,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"FABV \(TFE\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"FABV (TFE)\";"
   },
   "query": {
     "term": {
@@ -47433,7 +47433,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"POSTIC RHONE ALPES \(FRAIS\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"POSTIC RHONE ALPES (FRAIS)\";"
   },
   "query": {
     "term": {
@@ -47444,7 +47444,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"POSTIC RHONE ALPES \(SURGELE\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"POSTIC RHONE ALPES (SURGELE)\";"
   },
   "query": {
     "term": {
@@ -47939,7 +47939,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"TRANSALLIANCE ILLZACH \(SCAWAR\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"TRANSALLIANCE ILLZACH (SCAWAR)\";"
   },
   "query": {
     "term": {
@@ -49908,7 +49908,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"ANDROS \(FRUIVAL SA\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"ANDROS (FRUIVAL SA)\";"
   },
   "query": {
     "term": {
@@ -49919,7 +49919,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"ANDROS \(FRUIVAL SA\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"ANDROS (FRUIVAL SA)\";"
   },
   "query": {
     "term": {
@@ -51855,7 +51855,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"AXIANE MEUNERIE \(AMO\) \";"
+    "inline" : "ctx._source.rai_soc_des = \"AXIANE MEUNERIE (AMO) \";"
   },
   "query": {
     "term": {
@@ -52020,7 +52020,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"BABY MOUSSE \(GALEC\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"BABY MOUSSE (GALEC)\";"
   },
   "query": {
     "term": {
@@ -52031,7 +52031,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"BABY MOUSSE \(SIPLEC\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"BABY MOUSSE (SIPLEC)\";"
   },
   "query": {
     "term": {
@@ -52097,7 +52097,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"BAHLSEN ST MICHEL \(RACHAT\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"BAHLSEN ST MICHEL (RACHAT)\";"
   },
   "query": {
     "term": {
@@ -52878,7 +52878,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"BELGIAN ICE CREAM GROUP \(BIG\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"BELGIAN ICE CREAM GROUP (BIG)\";"
   },
   "query": {
     "term": {
@@ -53373,7 +53373,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"BIGARD \(FORGES\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"BIGARD (FORGES)\";"
   },
   "query": {
     "term": {
@@ -53483,7 +53483,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"BINNEY AND SMITH \(EUROPE\)LTD\";"
+    "inline" : "ctx._source.rai_soc_des = \"BINNEY AND SMITH (EUROPE)LTD\";"
   },
   "query": {
     "term": {
@@ -56629,7 +56629,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"CASTEL FRERES \(ANCIEN\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"CASTEL FRERES (ANCIEN)\";"
   },
   "query": {
     "term": {
@@ -56640,7 +56640,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"CASTEL FRERES \(ANCIEN\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"CASTEL FRERES (ANCIEN)\";"
   },
   "query": {
     "term": {
@@ -57080,7 +57080,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"CAVES DE LANDIRAS \(ANCIEN\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"CAVES DE LANDIRAS (ANCIEN)\";"
   },
   "query": {
     "term": {
@@ -57311,7 +57311,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"CEDILEC \(ALPA COLANTI\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"CEDILEC (ALPA COLANTI)\";"
   },
   "query": {
     "term": {
@@ -57322,7 +57322,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"CEDILEC \(ARDA\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"CEDILEC (ARDA)\";"
   },
   "query": {
     "term": {
@@ -57333,7 +57333,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"CEDILEC \(BAGAGES 405\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"CEDILEC (BAGAGES 405)\";"
   },
   "query": {
     "term": {
@@ -57344,7 +57344,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"CEDILEC \(COLART INTERNATIONAL\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"CEDILEC (COLART INTERNATIONAL)\";"
   },
   "query": {
     "term": {
@@ -57355,7 +57355,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"CEDILEC \(EMTEC\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"CEDILEC (EMTEC)\";"
   },
   "query": {
     "term": {
@@ -57366,7 +57366,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"CEDILEC \(FABRIANO\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"CEDILEC (FABRIANO)\";"
   },
   "query": {
     "term": {
@@ -57377,7 +57377,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"CEDILEC \(FRABOSK\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"CEDILEC (FRABOSK)\";"
   },
   "query": {
     "term": {
@@ -57388,7 +57388,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"CEDILEC \(KARL MEISENBACH\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"CEDILEC (KARL MEISENBACH)\";"
   },
   "query": {
     "term": {
@@ -57399,7 +57399,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"CEDILEC \(LA NUOVA\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"CEDILEC (LA NUOVA)\";"
   },
   "query": {
     "term": {
@@ -57410,7 +57410,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"CEDILEC \(LOCAU SA\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"CEDILEC (LOCAU SA)\";"
   },
   "query": {
     "term": {
@@ -57421,7 +57421,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"CEDILEC \(MARCO DACHS\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"CEDILEC (MARCO DACHS)\";"
   },
   "query": {
     "term": {
@@ -57432,7 +57432,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"CEDILEC \(MONDIAL EQUIPEMENT\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"CEDILEC (MONDIAL EQUIPEMENT)\";"
   },
   "query": {
     "term": {
@@ -57443,7 +57443,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"CEDILEC \(MUTSCHLER\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"CEDILEC (MUTSCHLER)\";"
   },
   "query": {
     "term": {
@@ -57454,7 +57454,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"CEDILEC \(OMYACOLOR\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"CEDILEC (OMYACOLOR)\";"
   },
   "query": {
     "term": {
@@ -57465,7 +57465,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"CEDILEC \(SELLNER\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"CEDILEC (SELLNER)\";"
   },
   "query": {
     "term": {
@@ -57476,7 +57476,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"CEDILEC \(SYROM\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"CEDILEC (SYROM)\";"
   },
   "query": {
     "term": {
@@ -57487,7 +57487,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"CEDILEC \(TVS\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"CEDILEC (TVS)\";"
   },
   "query": {
     "term": {
@@ -57498,7 +57498,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"CEDILEC \(ULMANN\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"CEDILEC (ULMANN)\";"
   },
   "query": {
     "term": {
@@ -57509,7 +57509,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"CEDILEC \(UNIVERSAL\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"CEDILEC (UNIVERSAL)\";"
   },
   "query": {
     "term": {
@@ -57553,7 +57553,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"CEDILEC\(PENAC\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"CEDILEC(PENAC)\";"
   },
   "query": {
     "term": {
@@ -59038,7 +59038,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"CHRIST SAS \(GILLET CONTRES\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"CHRIST SAS (GILLET CONTRES)\";"
   },
   "query": {
     "term": {
@@ -59830,7 +59830,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"COGESAL MIKO \(EDI\) UNILEVER\";"
+    "inline" : "ctx._source.rai_soc_des = \"COGESAL MIKO (EDI) UNILEVER\";"
   },
   "query": {
     "term": {
@@ -60094,7 +60094,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"COMERS SARL \(2\) À SUPR\";"
+    "inline" : "ctx._source.rai_soc_des = \"COMERS SARL (2) À SUPR\";"
   },
   "query": {
     "term": {
@@ -61832,7 +61832,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"CRUSTIMEX \(A SUPPRIMER\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"CRUSTIMEX (A SUPPRIMER)\";"
   },
   "query": {
     "term": {
@@ -62426,7 +62426,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"DEAU\(DISTILLERIE DES MOISANS\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"DEAU(DISTILLERIE DES MOISANS)\";"
   },
   "query": {
     "term": {
@@ -63713,7 +63713,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"DISTRIBORG FRAIS \(TRAITEUR\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"DISTRIBORG FRAIS (TRAITEUR)\";"
   },
   "query": {
     "term": {
@@ -63724,7 +63724,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"DISTRIBORG SEC \(EPICERIE\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"DISTRIBORG SEC (EPICERIE)\";"
   },
   "query": {
     "term": {
@@ -64846,7 +64846,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"DUHALLE \(LAFITTE LIEGE SA\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"DUHALLE (LAFITTE LIEGE SA)\";"
   },
   "query": {
     "term": {
@@ -65132,7 +65132,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"DYNALEC \(DEPT BBJ\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"DYNALEC (DEPT BBJ)\";"
   },
   "query": {
     "term": {
@@ -65440,7 +65440,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"ECOIFFIER \(SMOBY\) - REASSORT\";"
+    "inline" : "ctx._source.rai_soc_des = \"ECOIFFIER (SMOBY) - REASSORT\";"
   },
   "query": {
     "term": {
@@ -67376,7 +67376,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"EUROTAB OPERATIONS\(LINOSSIER\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"EUROTAB OPERATIONS(LINOSSIER)\";"
   },
   "query": {
     "term": {
@@ -67618,7 +67618,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"EYCHENNE \(SCAPAUTO\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"EYCHENNE (SCAPAUTO)\";"
   },
   "query": {
     "term": {
@@ -68278,7 +68278,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"FIAMM \(T.N.T. LOGISTICA\) \";"
+    "inline" : "ctx._source.rai_soc_des = \"FIAMM (T.N.T. LOGISTICA) \";"
   },
   "query": {
     "term": {
@@ -69400,7 +69400,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"FRESH FOOD VILLAGE \(HALLUM\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"FRESH FOOD VILLAGE (HALLUM)\";"
   },
   "query": {
     "term": {
@@ -70544,7 +70544,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"GALEDO \(ANCIEN\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"GALEDO (ANCIEN)\";"
   },
   "query": {
     "term": {
@@ -73756,7 +73756,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"HONFLEUR DIST. \(DEPT BBJ\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"HONFLEUR DIST. (DEPT BBJ)\";"
   },
   "query": {
     "term": {
@@ -74009,7 +74009,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"HYDRA - TRANS HIT \(TYM\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"HYDRA - TRANS HIT (TYM)\";"
   },
   "query": {
     "term": {
@@ -74207,7 +74207,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"IDM \(ELSE MDD\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"IDM (ELSE MDD)\";"
   },
   "query": {
     "term": {
@@ -75846,7 +75846,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"KAMBLY FRANCE \(CANSIMAG\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"KAMBLY FRANCE (CANSIMAG)\";"
   },
   "query": {
     "term": {
@@ -75967,7 +75967,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"KAWA DISTRIBUTION \(ANCIEN\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"KAWA DISTRIBUTION (ANCIEN)\";"
   },
   "query": {
     "term": {
@@ -79168,7 +79168,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"LARDY SA - REASSORT \(SMOBY\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"LARDY SA - REASSORT (SMOBY)\";"
   },
   "query": {
     "term": {
@@ -79938,7 +79938,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"LE MAGICIEN VERT \(DELPEYRAT\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"LE MAGICIEN VERT (DELPEYRAT)\";"
   },
   "query": {
     "term": {
@@ -80004,7 +80004,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"LE PLANEZARD \(CHEZ B ROBERT\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"LE PLANEZARD (CHEZ B ROBERT)\";"
   },
   "query": {
     "term": {
@@ -80675,7 +80675,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"LES COMPTOIRS DU BISCUIT  \(EX \";"
+    "inline" : "ctx._source.rai_soc_des = \"LES COMPTOIRS DU BISCUIT  (EX \";"
   },
   "query": {
     "term": {
@@ -81764,7 +81764,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"LILLE HEALTHCARE\(COVIDIEN\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"LILLE HEALTHCARE(COVIDIEN)\";"
   },
   "query": {
     "term": {
@@ -81918,7 +81918,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"LIXIR \(TRIODIS\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"LIXIR (TRIODIS)\";"
   },
   "query": {
     "term": {
@@ -83062,7 +83062,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"MAISON MALESAN \(ANCIEN\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"MAISON MALESAN (ANCIEN)\";"
   },
   "query": {
     "term": {
@@ -85306,7 +85306,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"MONNERET \(SMOBY\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"MONNERET (SMOBY)\";"
   },
   "query": {
     "term": {
@@ -85361,7 +85361,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"MONT ST ELOI \(ECLATEMENT\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"MONT ST ELOI (ECLATEMENT)\";"
   },
   "query": {
     "term": {
@@ -87088,7 +87088,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"NUTKAO \(ASFRET SUD EST-BERRY\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"NUTKAO (ASFRET SUD EST-BERRY)\";"
   },
   "query": {
     "term": {
@@ -87264,7 +87264,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"OENOALLIANCE \(ANCIEN FRIEDRICH\";"
+    "inline" : "ctx._source.rai_soc_des = \"OENOALLIANCE (ANCIEN FRIEDRICH\";"
   },
   "query": {
     "term": {
@@ -87374,7 +87374,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"OLIVET \(DRIVE\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"OLIVET (DRIVE)\";"
   },
   "query": {
     "term": {
@@ -88023,7 +88023,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"PALADINES \(ROLAND\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"PALADINES (ROLAND)\";"
   },
   "query": {
     "term": {
@@ -89035,7 +89035,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"PELTRACOM AGROFINO \(MAG\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"PELTRACOM AGROFINO (MAG)\";"
   },
   "query": {
     "term": {
@@ -89046,7 +89046,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"PELTRACOM AGROFINO \(OVERPELT\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"PELTRACOM AGROFINO (OVERPELT)\";"
   },
   "query": {
     "term": {
@@ -89057,7 +89057,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"PELTRACOM AGROFINO \(SCA\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"PELTRACOM AGROFINO (SCA)\";"
   },
   "query": {
     "term": {
@@ -90179,7 +90179,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"POSTIC  RHONE ALPES \(FRAIS\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"POSTIC  RHONE ALPES (FRAIS)\";"
   },
   "query": {
     "term": {
@@ -90212,7 +90212,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"POSTIC RHONE ALPES \(SURGELE\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"POSTIC RHONE ALPES (SURGELE)\";"
   },
   "query": {
     "term": {
@@ -90476,7 +90476,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"PROCTER AND GAMBLE \(INVRPT\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"PROCTER AND GAMBLE (INVRPT)\";"
   },
   "query": {
     "term": {
@@ -92313,7 +92313,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"ROSIERES \(CANDY FRANCE\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"ROSIERES (CANDY FRANCE)\";"
   },
   "query": {
     "term": {
@@ -92566,7 +92566,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"ROVAL \(ECLATEMENT\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"ROVAL (ECLATEMENT)\";"
   },
   "query": {
     "term": {
@@ -94227,7 +94227,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"SAR OCEAN \(HUB\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"SAR OCEAN (HUB)\";"
   },
   "query": {
     "term": {
@@ -94601,7 +94601,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"SAS CHRIST\(GILLET CONTRES\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"SAS CHRIST(GILLET CONTRES)\";"
   },
   "query": {
     "term": {
@@ -97428,7 +97428,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"SEURODIS ANCIEN\(PHOSKITOS\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"SEURODIS ANCIEN(PHOSKITOS)\";"
   },
   "query": {
     "term": {
@@ -97549,7 +97549,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"SIALE \(ARDO\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"SIALE (ARDO)\";"
   },
   "query": {
     "term": {
@@ -98440,7 +98440,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"SLDB \(DOMAINES BERNARD\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"SLDB (DOMAINES BERNARD)\";"
   },
   "query": {
     "term": {
@@ -101036,7 +101036,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"SOPRAT\(DOUX\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"SOPRAT(DOUX)\";"
   },
   "query": {
     "term": {
@@ -101894,7 +101894,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"STAPLES CONSUMA \(GOULD\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"STAPLES CONSUMA (GOULD)\";"
   },
   "query": {
     "term": {
@@ -102180,7 +102180,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"STE VINS DE FRANCE \(ANCIEN\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"STE VINS DE FRANCE (ANCIEN)\";"
   },
   "query": {
     "term": {
@@ -102191,7 +102191,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"STE VINS DE FRANCE \(ANCIEN\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"STE VINS DE FRANCE (ANCIEN)\";"
   },
   "query": {
     "term": {
@@ -102796,7 +102796,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"SWEDISH MATCH \(CRICKET\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"SWEDISH MATCH (CRICKET)\";"
   },
   "query": {
     "term": {
@@ -103368,7 +103368,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"TERRE ET DECOR \(DEROMA\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"TERRE ET DECOR (DEROMA)\";"
   },
   "query": {
     "term": {
@@ -103379,7 +103379,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"TERRE ET NATURE \(MAG\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"TERRE ET NATURE (MAG)\";"
   },
   "query": {
     "term": {
@@ -103390,7 +103390,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"TERRE ET NATURE \(SCA\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"TERRE ET NATURE (SCA)\";"
   },
   "query": {
     "term": {
@@ -103841,7 +103841,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"TIPIAK PANIFICATION\(GESNOIN\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"TIPIAK PANIFICATION(GESNOIN)\";"
   },
   "query": {
     "term": {
@@ -104402,7 +104402,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"TRANSALLIANCE ILLZACH \(SCAWAR\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"TRANSALLIANCE ILLZACH (SCAWAR)\";"
   },
   "query": {
     "term": {
@@ -104710,7 +104710,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"TRIBALLAT RIANS \(ULTRA FRAIS\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"TRIBALLAT RIANS (ULTRA FRAIS)\";"
   },
   "query": {
     "term": {
@@ -105766,7 +105766,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"VALEURDIS \(AVIVA\) \";"
+    "inline" : "ctx._source.rai_soc_des = \"VALEURDIS (AVIVA) \";"
   },
   "query": {
     "term": {
@@ -105975,7 +105975,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"VARTA \(HUB\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"VARTA (HUB)\";"
   },
   "query": {
     "term": {
@@ -106107,7 +106107,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"VBP DISTRIBUTION \(WAY\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"VBP DISTRIBUTION (WAY)\";"
   },
   "query": {
     "term": {
@@ -106943,7 +106943,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"VINAIGRERIE GENERALE \(2\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"VINAIGRERIE GENERALE (2)\";"
   },
   "query": {
     "term": {
@@ -106998,7 +106998,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"VINOVALIE \(CAVE DE FRONTON\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"VINOVALIE (CAVE DE FRONTON)\";"
   },
   "query": {
     "term": {
@@ -107009,7 +107009,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"VINOVALIE \(RABASTENS\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"VINOVALIE (RABASTENS)\";"
   },
   "query": {
     "term": {
@@ -107020,7 +107020,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"VINS DE FRANCE \(ANCIEN\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"VINS DE FRANCE (ANCIEN)\";"
   },
   "query": {
     "term": {
@@ -107878,7 +107878,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"YARDEN \(CEDILEC\)\";"
+    "inline" : "ctx._source.rai_soc_des = \"YARDEN (CEDILEC)\";"
   },
   "query": {
     "term": {
