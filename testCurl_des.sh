@@ -1508,7 +1508,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"BONN\'DRIVE-ESP_DRIVE\";"
+    "inline" : "ctx._source.rai_soc_des = \"BONN&apos;DRIVE-ESP_DRIVE\";"
   },
   "query": {
     "term": {
@@ -5369,7 +5369,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"ILE O\'DIS-HYPER\";"
+    "inline" : "ctx._source.rai_soc_des = \"ILE O&apos;DIS-HYPER\";"
   },
   "query": {
     "term": {
@@ -6843,7 +6843,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"L\'AUTO LE SEQUESTRE ALBI2\";"
+    "inline" : "ctx._source.rai_soc_des = \"L&apos;AUTO LE SEQUESTRE ALBI2\";"
   },
   "query": {
     "term": {
@@ -6854,7 +6854,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"L\'AUTO SU.MA.TYR\";"
+    "inline" : "ctx._source.rai_soc_des = \"L&apos;AUTO SU.MA.TYR\";"
   },
   "query": {
     "term": {
@@ -8790,7 +8790,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"PONT L\'ABBE DIST-HYPER\";"
+    "inline" : "ctx._source.rai_soc_des = \"PONT L&apos;ABBE DIST-HYPER\";"
   },
   "query": {
     "term": {
@@ -8801,7 +8801,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"PONT L\'ABBE PARA\";"
+    "inline" : "ctx._source.rai_soc_des = \"PONT L&apos;ABBE PARA\";"
   },
   "query": {
     "term": {
@@ -9021,7 +9021,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"REN\'OUEST-HYPER\";"
+    "inline" : "ctx._source.rai_soc_des = \"REN&apos;OUEST-HYPER\";"
   },
   "query": {
     "term": {
@@ -20945,7 +20945,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"COMPTOIR COMMERCIAL D\'ORIENT\";"
+    "inline" : "ctx._source.rai_soc_des = \"COMPTOIR COMMERCIAL D&apos;ORIENT\";"
   },
   "query": {
     "term": {
@@ -21803,7 +21803,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"CROUSTAD\'OC\";"
+    "inline" : "ctx._source.rai_soc_des = \"CROUSTAD&apos;OC\";"
   },
   "query": {
     "term": {
@@ -25477,7 +25477,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"FLEURON D\'ANJOU\";"
+    "inline" : "ctx._source.rai_soc_des = \"FLEURON D&apos;ANJOU\";"
   },
   "query": {
     "term": {
@@ -27281,7 +27281,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"GENERALE DE POTERIES D\'ALSACE\";"
+    "inline" : "ctx._source.rai_soc_des = \"GENERALE DE POTERIES D&apos;ALSACE\";"
   },
   "query": {
     "term": {
@@ -27655,7 +27655,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"GLACIERE L\'ICEBERG\";"
+    "inline" : "ctx._source.rai_soc_des = \"GLACIERE L&apos;ICEBERG\";"
   },
   "query": {
     "term": {
@@ -31153,7 +31153,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"LA FERME D\'ERQUINVILLERS\";"
+    "inline" : "ctx._source.rai_soc_des = \"LA FERME D&apos;ERQUINVILLERS\";"
   },
   "query": {
     "term": {
@@ -43110,7 +43110,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"SUN\'STYL\";"
+    "inline" : "ctx._source.rai_soc_des = \"SUN&apos;STYL\";"
   },
   "query": {
     "term": {
@@ -47488,7 +47488,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"PRESTA HUB DE L\'EST\";"
+    "inline" : "ctx._source.rai_soc_des = \"PRESTA HUB DE L&apos;EST\";"
   },
   "query": {
     "term": {
@@ -47499,7 +47499,7 @@ curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-
 curl -XPOST "http://lgc-sandbox-dev:9200/console/_update_by_query?" -H 'Content-Type: application/json' -d'
 {
   "script" : {
-    "inline" : "ctx._source.rai_soc_des = \"PRESTA HUB DE L\'OUEST\";"
+    "inline" : "ctx._source.rai_soc_des = \"PRESTA HUB DE L&apos;OUEST\";"
   },
   "query": {
     "term": {
